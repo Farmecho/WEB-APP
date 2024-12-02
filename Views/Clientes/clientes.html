@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmECHO | Cadastro Cliente</title>
+    <link rel="icon" href="../../wwwroot/images/favicon.svg" type="image/png">
+    <link rel="stylesheet" href="../../wwwroot/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <img src="../../wwwroot/images/Pattern 3.svg" alt="Logo" class="logo">
+            <button class="menu-toggle" aria-label="Menu de Navegação">&#9776;</button>
+            <nav class="menu">
+                <a href="../Home/Index.html">Home</a>
+                <a href="../Produtos/venda.html">Venda de Produtos</a>
+                <a href="../Estoque/estoque.html">Estoque</a>
+                <a href="../Produtos/cadastro.html">Cadastro de Produtos</a>
+                <a href="../Clientes/clientes.html">Cadastro de Clientes</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Cadastro de Clientes</h2>
+            <form action="../Clientes/clientes.html" method="POST">
+                <label for="nome">Nome do Cliente:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+                <button type="submit">Cadastrar Cliente</button>
+            </form>
+        </main>
+    </div>
+    <script src="../../wwwroot/js/scripts.js"></script>
+</body>
+</html>
